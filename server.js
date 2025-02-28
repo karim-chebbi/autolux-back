@@ -31,3 +31,5 @@ connectDB()
  
 
 app.use('/api/cars', require('./routes/carRoutes'))
+
+app.use('/api/auth', require('./routes/authRoures'))
